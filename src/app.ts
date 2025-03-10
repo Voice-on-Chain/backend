@@ -67,7 +67,7 @@ class App {
 
   private setupRoutes(): void {
     this.app.get("/", (request: Request, response: Response) => {
-      response.send("Welcome to VOA");
+      response.send("Welcome to VOICE ON CHAIN");
     });
 
     //add notification routes
